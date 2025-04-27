@@ -47,7 +47,7 @@ func main() {
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:    "output",
-				Usage:   "Download `path`, if dir passed the path witll be `dir + output`.",
+				Usage:   "Download `path`, if dir passed the path will be `dir + output`.",
 				Aliases: []string{"o"},
 			},
 			&cli.StringFlag{
